@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 import { SVGProps, useState } from "react";
 import api from "../../api/api";
 import toast from "react-hot-toast";
-import { QuoteComponent } from "./Quote";
+// import { QuoteComponent } from "./Quote";
 
 function AuthSignup() {
   const navigate = useNavigate();
@@ -178,7 +178,7 @@ function AuthSignup() {
           </form>
         </div>
       </div>
-      <QuoteComponent />
+      {/* <QuoteComponent /> */}
     </div>
   );
 }
