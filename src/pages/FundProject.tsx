@@ -41,7 +41,7 @@ export default function FundProjectPage() {
       } else {
         console.error("Failed to fetch:", response.status, response.statusText);
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error("Error during fetch:", error.response);
     }
   };

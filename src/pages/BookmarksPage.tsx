@@ -1,6 +1,5 @@
 import NavigationComponent from "@/components/custom/Navigation";
-import React, { useEffect, useState } from "react";
-import { Project } from "./ProjectsPage";
+import { useEffect, useState } from "react";
 import api from "@/api/api";
 import ProjectCard from "@/components/custom/ProjectCard";
 

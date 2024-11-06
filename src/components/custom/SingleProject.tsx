@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import api from "../../api/api";
 import { Card } from "../ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "../ui/avatar";
-import { Investor } from "../../pages/single_project/SingleProjectPage";
+import { Investor } from "@/pages/SingleProjectPage";
 
 type SingleProject = {
   _id: string;

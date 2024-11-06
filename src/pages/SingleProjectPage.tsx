@@ -24,6 +24,7 @@ export type Investor = {
   investorId: {
     _id: string;
     username: string;
+    profileImage?: string;
   };
   investedAmount: number;
 };
